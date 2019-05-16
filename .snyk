@@ -1,0 +1,32 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.13.3
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - socket.io > socket.io-adapter > socket.io-parser > debug:
+        patched: '2019-05-16T09:22:16.986Z'
+  'npm:hoek:20180212':
+    - grunt-mocha > grunt-lib-phantomjs > phantomjs > request > hawk > boom > hoek:
+        patched: '2019-05-16T09:22:16.986Z'
+    - grunt-mocha > grunt-lib-phantomjs > phantomjs > request > hawk > sntp > hoek:
+        patched: '2019-05-16T09:22:16.986Z'
+    - grunt-mocha > grunt-lib-phantomjs > phantomjs > request > hawk > cryptiles > boom > hoek:
+        patched: '2019-05-16T09:22:16.986Z'
+    - grunt-mocha > grunt-lib-phantomjs > phantomjs > request > hawk > hoek:
+        patched: '2019-05-16T09:22:16.986Z'
+  'npm:ms:20170412':
+    - socket.io > socket.io-adapter > socket.io-parser > debug > ms:
+        patched: '2019-05-16T09:22:16.986Z'
+  'npm:qs:20140806-1':
+    - grunt-contrib-watch > tiny-lr-fork > qs:
+        patched: '2019-05-16T09:22:16.986Z'
+  'npm:request:20160119':
+    - grunt-mocha > grunt-lib-phantomjs > phantomjs > request:
+        patched: '2019-05-16T09:22:16.986Z'
+  'npm:tough-cookie:20170905':
+    - grunt-mocha > grunt-lib-phantomjs > phantomjs > request > tough-cookie:
+        patched: '2019-05-16T09:22:16.986Z'
+  'npm:tunnel-agent:20170305':
+    - grunt-mocha > grunt-lib-phantomjs > phantomjs > request > tunnel-agent:
+        patched: '2019-05-16T09:22:16.986Z'
